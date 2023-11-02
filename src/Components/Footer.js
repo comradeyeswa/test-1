@@ -28,7 +28,7 @@ const Footer = () => {
         <Twitter />
       </IconButton>
       <Typography variant="body2" component="span" marginLeft="10px">
-        Anime &copy; {new Date().getFullYear()}
+        jio &copy; {new Date().getFullYear()}
       </Typography>
     </Box>
   );

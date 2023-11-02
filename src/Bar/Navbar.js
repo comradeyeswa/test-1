@@ -21,7 +21,7 @@ const Navbar = () => {
     <AppBar position='static'>
       <Container>
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Typography variant='h5'>Animes</Typography>
+          <Typography variant='h5'>JIO</Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: '50px' }}>
             <StyledNavLink to='/' exact>
               Home
