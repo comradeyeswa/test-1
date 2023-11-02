@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Footer from './Footer';
+import Marque from './Marque';
 
 const StyledCard = styled(Card)(({ theme }) => ({
   maxWidth: 700,
@@ -95,7 +96,7 @@ const Home = () => {
         <AppBar position="sticky" color='grey'>
           <Toolbar>
             <Typography variant="h6" style={{ flexGrow: 1 }}>
-              JIO SERVICES
+            JIO SERVICES<Marque/>
             </Typography>
             <Button color="inherit" onClick={toggleTheme}>
               Toggle Theme

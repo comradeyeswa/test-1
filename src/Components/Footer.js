@@ -27,8 +27,8 @@ const Footer = () => {
       <IconButton>
         <Twitter />
       </IconButton>
-      <Typography variant="body2" component="span" marginLeft="10px">
-        jio &copy; {new Date().getFullYear()}
+      <Typography variant="body2" component="span" marginLeft="10px" sx={{color:'white'}}>
+        yeswanth&copy; {new Date().getFullYear()}
       </Typography>
     </Box>
   );
