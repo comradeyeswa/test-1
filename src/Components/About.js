@@ -38,15 +38,29 @@ const About = () => {
 
   return (
     <div>
-      <Grid container spacing={2}>
+        <Grid container spacing={2}>
         {/* First Card */}
         <Grid item xs={12} sm={6} md={4}>
           <StyledCard>
             <CardContent>
-              <Typography variant="h4">OnePiece</Typography>
+              <Typography variant="h4">Jio</Typography>
               <Typography variant="body1">
-                "One Piece" is a popular Japanese manga and anime series created by Eiichiro Oda. It first premiered in Shueisha's "Weekly Shonen Jump" magazine in 1997 and has since become one of the most successful and enduring franchises in the world of manga and anime. Here are some key aspects of "One Piece":
-              </Typography>
+              Reliance Jio Infocomm Limited, doing business as Jio, is an Indian telecommunications company and a subsidiary of Jio Platforms, headquartered in Navi Mumbai, Maharashtra, India. It operates a national LTE network with coverage across all 22 telecom circles. Jio offers 4G and 4G+ services all over India and 5G service in many cities. </Typography>
+              {/* Like button */}
+              <IconButton onClick={handleLikeClick}>
+                {liked ? <Favorite style={{ color: 'red' }} /> : <FavoriteBorder />}
+              </IconButton>
+            </CardContent>
+          </StyledCard>
+        </Grid>
+      
+        {/* First Card */}
+        <Grid item xs={12} sm={6} md={4}>
+          <StyledCard>
+            <CardContent>
+              <Typography variant="h4">Mobile broadband</Typography>
+              <Typography variant="body1">
+              The company launched its 4G broadband services throughout India in September 2016. It was slated to release in December 2015 after some reports said that the company was waiting to receive final permits from the government.[15] Jio offers fourth-generation (4G) data and voice services, along with peripheral services like instant messaging and streaming movies and music</Typography>
               {/* Like button */}
               <IconButton onClick={handleLikeClick}>
                 {liked ? <Favorite style={{ color: 'red' }} /> : <FavoriteBorder />}
@@ -59,10 +73,9 @@ const About = () => {
         <Grid item xs={12} sm={6} md={4}>
           <StyledCard>
             <CardContent>
-              <Typography variant="h4">My Hero Acdemia</Typography>
+              <Typography variant="h4">jio</Typography>
               <Typography variant="body1">
-                "My Hero Academia," also known as "Boku no Hero Academia" in Japanese, is a popular manga and anime series created by Kohei Horikoshi. It is set in a world where individuals can develop superpowers known as "Quirks." Here are some key details about "My Hero Academia":
-              </Typography>
+              Jio shares spectrum with Reliance Communications. The sharing deal is for 800 MHz band across seven circles other than the 10 circles for which Jio already owns.</Typography>
               {/* Like button */}
               <IconButton onClick={handleLikeClick}>
                 {liked ? <Favorite style={{ color: 'red' }} /> : <FavoriteBorder />}
